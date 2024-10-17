@@ -1,0 +1,13 @@
+npm init -y
+npm install -D tailwindcss postcss autoprefixer vite
+npx tailwindcss init
+
+
+
+
+create css files style.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+npx tailwindcss -i ./input.css -o ./output.css --watch
